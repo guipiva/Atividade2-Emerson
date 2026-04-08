@@ -1,5 +1,4 @@
 import * as SQLite from 'expo-sqlite';
-//fazer em casa
 
 async function Banco() {
     const bd = await SQLite.openDatabaseAsync("FatecV")
